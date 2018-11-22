@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>车辆查询</title>
+</head>
+<body>
+<form method="post" action="car_inout.php">
+    车辆进出时间
+    <!--<input type="checkbox" name="inout" value="QM" checked="checked">-->
+<!--前门-->
+    <!--<input type="checkbox" name="inout1" value="HM">-->
+    <!--后门-->
+    <input type="date"  name="meeting" value="2018-11-04 ">
+
+    至
+    <input type="date"  name="meeting1" value="2018-11-07 ">
+    <select name="hour">
+        <option value="01">01时</option>
+        <option value="02">02时</option>
+        <option value="03">03时</option>
+        <option value="04">04时</option>
+        <option value="05">05时</option>
+        <option value="06">06时</option>
+        <option value="07">07时</option>
+        <option value="08">08时</option>
+        <option value="09">09时</option>
+        <option value="10">10时</option>
+        <option value="11">11时</option>
+        <option value="12">12时</option>
+        <option value="13">13时</option>
+        <option value="14">14时</option>
+        <option value="15">15时</option>
+        <option value="16">16时</option>
+        <option value="17">17时</option>
+        <option value="18">18时</option>
+        <option value="19">19时</option>
+        <option value="20">20时</option>
+        <option value="21">21时</option>
+        <option value="22">22时</option>
+        <option value="23">23时</option>
+        <option value="24">24时</option>
+    </select>
+    至
+    <select name="hour1">
+        <option value="01">01时</option>
+        <option value="02">02时</option>
+        <option value="03">03时</option>
+        <option value="04">04时</option>
+        <option value="05">05时</option>
+        <option value="06">06时</option>
+        <option value="07">07时</option>
+        <option value="08">08时</option>
+        <option value="09">09时</option>
+        <option value="10">10时</option>
+        <option value="11">11时</option>
+        <option value="12">12时</option>
+        <option value="13">13时</option>
+        <option value="14">14时</option>
+        <option value="15">15时</option>
+        <option value="16">16时</option>
+        <option value="17">17时</option>
+        <option value="18">18时</option>
+        <option value="19">19时</option>
+        <option value="20">20时</option>
+        <option value="21">21时</option>
+        <option value="22">22时</option>
+        <option value="23">23时</option>
+        <option value="24">24时</option>
+    </select>
+    <input type="submit" name="btn" value="车辆查询">
+</form>
+<form method="post" action="test.php">
+    <input type="text" name="number"  placeholder="请输入车牌号码"/>
+    <input type="submit" value="查询"/>
+</form>
+</body>
+</html>
